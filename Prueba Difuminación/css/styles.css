@@ -1,0 +1,75 @@
+html {
+    font-size: 10 px;
+    height: 100%;
+
+}
+
+body {
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+}
+
+.layout_main {
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(30px);
+    /*difuminacion*/
+    background-image: url("../img/barcofoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.load_number{
+font-size: 40px;
+font-weight: bold;
+margin: block end 50px;
+color: rgb(239, 239, 241);
+text-align: center;
+    text-shadow: 0 0 1rem black;
+
+}
+.load_btn{
+    font-size: 1rem;
+    padding: 2rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #5B465D;
+    color:rgb(233, 236, 238);
+    cursor:pointer;
+    transition: all 300ms ease-in-out ;
+      
+
+}
+
+.load_btn:hover{
+    background-color:#5B465D;
+}
+.load_complete{
+    display: none;
+    color:#CACFD3;
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 0 0 1rem black;
+}
